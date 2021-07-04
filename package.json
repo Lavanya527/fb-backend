@@ -1,0 +1,21 @@
+{
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": " nodemon server1.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dateformat": "^4.5.1",
+        "express": "^4.17.1",
+        "js-time-ago": "^2.1.0",
+        "mysql2": "^2.2.5",
+        "nodemon": "^2.0.7"
+    }
+}
